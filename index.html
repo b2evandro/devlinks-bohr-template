@@ -11,17 +11,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DevLinks</title>
+    <title>Portifolio</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="container">
       <div id="profile">
-        <img
-          src="./assets/avatar.png"
-          alt="Foto de Mayk Brito sorrindo, usando óculos e camisa preta, barba e fundo amarelo."
-        />
-        <p>@maykbrito</p>
+        <img src="https://github.com/bohr-io.png" alt="User picture" />
+        <h1>Borh.io</h1>
+        <p id="username">@bohr-io</p>
       </div>
 
       <div id="switch" onclick="toggleMode()">
@@ -29,45 +27,18 @@
         <span></span>
       </div>
 
-      <ul>
-        <li>
-          <a href="#">Inscrever-se no NLW</a>
-        </li>
-
-        <li>
-          <a href="#">Baixar meu e-book</a>
-        </li>
-
-        <li>
-          <a href="https://github.com/maykbrito">Ver meu portfólio</a>
-        </li>
-
-        <li>
-          <a href="https://rocketseat.com.br/explorer" target="_blank"
-            >Conheça o Explorer</a
-          >
+      <ul id="project-list">
+    
         </li>
       </ul>
       <div id="social-links">
-        <a href="https://github.com/maykbrito" target="_blank">
+        <a  id='github' href="https://github.com/borh-io" target="_blank">
           <ion-icon name="logo-github"></ion-icon>
-        </a>
-
-        <a href="https://instagram.com/maykbrito" target="_blank">
-          <ion-icon name="logo-instagram"></ion-icon>
-        </a>
-
-        <a href="https://youtube.com/maykbrito" target="_blank">
-          <ion-icon name="logo-youtube"></ion-icon>
-        </a>
-
-        <a href="https://linkedin.com/in/maykbrito" target="_blank">
-          <ion-icon name="logo-linkedin"></ion-icon>
         </a>
       </div>
 
       <footer>
-        Feito com ♥ pela <a href="https://rocketseat.com.br/">Rocketseat</a>
+     Changed with ☕ by <a href="https://portifolio-b2evandro.bohr.io/">B2evandro</a> and inspired by <a href="https://rocketseat.com.br/">Rocketseat</a>
       </footer>
     </div>
 
@@ -79,7 +50,7 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
-
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>
