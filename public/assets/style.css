@@ -17,7 +17,7 @@
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(255, 255, 255, 0.2);
-  --switch-bg-url: url(./assets/moon-stars.svg);
+  --switch-bg-url: url(../assets/moon-stars.svg);
 }
 
 .light {
@@ -32,7 +32,7 @@
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
-  --switch-bg-url: url(./assets/sun.svg);
+  --switch-bg-url: url(../assets/sun.svg);
 }
 
 body {
@@ -201,9 +201,11 @@ footer {
 
   .light {
     --bg-url: linear-gradient(
-        122deg,
-        rgb(255, 255, 255) 0%,
-        rgb(246, 243, 252) 83%
+        to left,
+        rgb(255, 255, 255) 13%,
+        rgb(216, 163, 232) 38%,
+        rgb(216, 163, 232) 58%,
+        rgb(243, 202, 202) 96%
       )
       fixed;
   }
