@@ -44,8 +44,8 @@ export default function Index(props) {
   return (
     <div id="container">
       <Head>
-        <title>Portifolio - {name}</title>
-        <meta content={`Portifolio ${name}`} property="og:title" />
+        <title>{`Portifolio - ${name}`}</title>
+        <meta content={`Portifolio - ${name}`} property="og:title" />
         <meta content={bio} name="description" />
         <meta content={bio} property="og:description" />
         <meta content={avatar_url} property="og:image" />
