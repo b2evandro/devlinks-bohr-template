@@ -62,7 +62,7 @@ export default function Index(props) {
       </div>
 
       <ul id="project-list">
-        {projects_borh &&
+         {projects_borh &&  projects_borh.error === undefined &&
           projects_borh.map((project) => (
             <li key={project.githubUrl}>
               <a href={project.url} target="_blank">
